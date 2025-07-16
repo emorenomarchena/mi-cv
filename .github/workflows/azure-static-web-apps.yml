@@ -15,4 +15,4 @@ jobs:
           action: "upload"
           app_location: "/"
           skip_app_build: true
-          app_build_command: "echo 'Skipping build for static site'"
+          skip_deploy_on_missing_secrets: false
